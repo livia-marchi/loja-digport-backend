@@ -2,7 +2,6 @@ package model
 
 type ShoppingCart struct {
 	ID          string
-	ProductID   string
 	UserID      string
 	ProductInfo map[string]int
 	TotalValue  float64
