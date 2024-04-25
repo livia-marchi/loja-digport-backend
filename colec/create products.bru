@@ -1,0 +1,23 @@
+meta {
+  name: create products
+  type: http
+  seq: 3
+}
+
+post {
+  url: http://localhost:8080/products
+  body: json
+  auth: none
+}
+
+body:json {
+  {
+    "id": "3",
+    "name": "Camomila",
+    "description": "Chá de camomila",
+    "category": "Infusão",
+    "value": 0.075,
+    "quantity": 1,
+    "image": "Camomila.png"
+  }
+}

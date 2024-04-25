@@ -1,7 +1,17 @@
 package main
 
-import "fmt"
+//import (	"fmt" )
 
 func main() {
-	fmt.Println("Hello World")
+	StartServer()
+
+	// var name string
+
+	// fmt.Printf("Digite o nome do produto desejado: ")
+	// fmt.Scanf("%s", &name)
+
+	// productsFilter := productsByName(name)
+
+	// fmt.Println(productsFilter)
+
 }
