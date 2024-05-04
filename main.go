@@ -2,8 +2,14 @@ package main
 
 //import (	"fmt" )
 
+import (
+	"fmt"
+
+	_ "github.com/lib/pq"
+)
+
 func main() {
-	StartServer()
+	//StartServer()
 
 	// var name string
 
@@ -14,4 +20,5 @@ func main() {
 
 	// fmt.Println(productsFilter)
 
+	fmt.Printf("Bem vindo(a) ao DigPort Loja!\n")
 }
